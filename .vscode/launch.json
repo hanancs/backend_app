@@ -1,0 +1,76 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "name": "Debug App (app)",
+            "program": "${workspaceFolder:Vapor}/app/.build/debug/App",
+            "args": [],
+            "cwd": "${workspaceFolder:Vapor}/app",
+            "preLaunchTask": "swift: Build Debug App (app)"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "name": "Release App (app)",
+            "program": "${workspaceFolder:Vapor}/app/.build/release/App",
+            "args": [],
+            "cwd": "${workspaceFolder:Vapor}/app",
+            "preLaunchTask": "swift: Build Release App (app)"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "name": "Debug App (app)",
+            "program": "${workspaceFolder:Vapor}/app/.build/debug/App",
+            "args": [],
+            "cwd": "${workspaceFolder:Vapor}/app",
+            "preLaunchTask": "swift: Build Debug App (app)"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "name": "Release App (app)",
+            "program": "${workspaceFolder:Vapor}/app/.build/release/App",
+            "args": [],
+            "cwd": "${workspaceFolder:Vapor}/app",
+            "preLaunchTask": "swift: Build Release App (app)"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "name": "Debug App",
+            "program": "${workspaceFolder:app}/.build/debug/App",
+            "args": [],
+            "cwd": "${workspaceFolder:app}",
+            "preLaunchTask": "swift: Build Debug App"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "name": "Release App",
+            "program": "${workspaceFolder:app}/.build/release/App",
+            "args": [],
+            "cwd": "${workspaceFolder:app}",
+            "preLaunchTask": "swift: Build Release App"
+        }
+    ]
+}
